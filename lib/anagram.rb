@@ -9,8 +9,8 @@ end
 def match(word_array)
 
 word_array.each do |word|
-  word_array = word.split("")
-  if word_array.sort == word_array.sort
+  word = word.split("")
+  if word.sort == word.sort
 true 
 else 
   false
