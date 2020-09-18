@@ -11,7 +11,7 @@ word_array.each do |word|
   word.split("")
   if word == 
 
-
-
+end
+end
 end
 end
