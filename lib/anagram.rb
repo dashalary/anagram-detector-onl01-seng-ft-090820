@@ -3,11 +3,11 @@ attr_accessor :word
 
 def initialize(word)
 @word = word 
-word = Anagram.new
+# word = Anagram.new
 end 
 
 def match(word_array)
-# word = Anagram.new
+
 word_array.each do |word|
   word.split("")
   if word.sort == 
