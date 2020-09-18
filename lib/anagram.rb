@@ -7,10 +7,9 @@ def initialize(word)
 end 
 
 def match(word_array)
-word_array.each do |some_word|
-  some_word = some_word.split(" ")
-  word = word.split(" ")
-  if word.sort == some_word.sort
+word_array.each do |word|
+  word = word.split("")
+  if word.sort == 
 true 
 else 
   false
