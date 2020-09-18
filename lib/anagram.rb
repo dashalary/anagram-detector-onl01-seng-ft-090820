@@ -6,7 +6,7 @@ def initialize(word)
 end 
 
 def match(word_array)
-word = self.new
+word = Anagram.new
 word_array.each do |word|
   word.split("")
   if word.sort == 
